@@ -1,0 +1,8 @@
+{
+  "spec_slug": "catalog-purchase-management",
+  "title": "Catalog & Purchase Management \u2014 Shillinq",
+  "app": "purchaseq",
+  "repo": "https://github.com/ConductionNL/purchaseq",
+  "depends_on": [],
+  "issue": null
+}
