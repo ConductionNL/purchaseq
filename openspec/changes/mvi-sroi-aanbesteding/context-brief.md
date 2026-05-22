@@ -3,6 +3,17 @@ status: draft
 ---
 # MVI- en SROI-eisen in Aanbestedingen
 
+## Placement & Information Architecture
+
+**Placement type:** `SUB_PAGE` — Sub-page beneath a top-level menu entry. Renders as a page inside the parent surface (usually reachable via a router child route or a tab on the parent index page).
+
+**Lives at:** Aanbestedingen > MVI-SROI-eisen
+
+**Rationale:** sustainability criteria branch  
+_Source: /tmp/ia-small5.md_
+
+> **Implementation note for builders:** Respect the placement above. Do not promote this spec to a top-level menu item, sub-page, or new route unless the placement type explicitly says so. If the placement is `DETAIL_TAB`, `WIDGET`, `ACTION`, `SETTING`, or `INFRA`, the feature must NOT introduce a new entry in the app sidebar. When in doubt, ask before creating a new top-level surface.
+
 ## Purpose
 
 The MVI & SROI Aanbesteding capability gives purchaseq the structured framework voor het opnemen, scoren, monitoren en rapporteren van Maatschappelijk Verantwoord Inkopen (MVI) en Social Return on Investment (SROI) in elke aanbesteding die de organisatie uitvoert. MVI en SROI zijn in Nederland niet langer optioneel: het Manifest Maatschappelijk Verantwoord Opdrachtgeven en Inkopen (MVOI) is door alle decentrale overheden plus het Rijk ondertekend (eerste versie 2016, hernieuwd 2023-2026 als MVOI 2026), de Aanbestedingswet 2012 verplicht in art 1.4 het in acht nemen van milieu- en sociale aspecten, en specifieke instrumenten zoals de CO2-Prestatieladder, PSO-trede, en de RVO MVI-Criteriatool zijn standaardonderdeel van het inkoopproces geworden. Voor sociale return geldt sinds 2011 de afspraak van een minimum-SROI-percentage van 2% tot 5% van de opdrachtwaarde bij opdrachten boven EUR 250.000 voor diensten en EUR 500.000 voor werken (per regio en sector afwijkend), en de Bouwblokkenmethode (uniform NL-model voor SROI-verantwoording sinds 2018, beheerd door TNO/PSO Nederland). De capability moet vier dingen leveren: (a) een rijke MVI-criteria-bibliotheek per inkoopcategorie, gevoed door de RVO MVI-criteriatool plus organisatie-eigen aanvullingen, met onderscheid tussen minimumeisen (knock-out), gunningscriteria (gewogen punten) en contracteisen (post-award monitoring); (b) een SROI-rekenmodule die per opdracht de verplichting bepaalt (percentage van opdrachtwaarde), bouwblokken-invulling toelaat (uren x weegfactor per doelgroep), en gegunde SROI-prestaties op de leveranciers monitort; (c) een dashboard voor portefeuille-rapportage waarmee de inkooporganisatie kan aantonen welk percentage van uitgaven MVI-conform is, hoeveel SROI is gerealiseerd, en op welke MVOI-thema's nog progressie nodig is (richting de gestelde doelen, vaak CO2-reductie 49% in 2030 en circulair 50% in 2030); (d) rapportage-uitvoer geschikt voor het college van B&W, de Raad/Staten, het MVO-jaarverslag, en de jaarlijkse uitvraag van Rijksoverheid/RIVM voor het MVOI-monitorbestand. De capability is bewust eigen omdat MVI/SROI dwars door alle andere capabilities heenloopt: het beinvloedt de bestek-tekst (gunningscriteria), de gunning-beslissing (scores), het contract (boetes en bonussen op MVI-prestatie), en de uitvoering (kwartaalrapportages SROI-realisatie). Door deze logica te concentreren in een aparte capability wordt voorkomen dat MVI-implementatie versnipperd raakt over template-tekstfragmenten en handmatige Excel-trackers (de huidige praktijk bij veel organisaties), en kan de organisatie centraal sturen op MVI/SROI-strategie.
