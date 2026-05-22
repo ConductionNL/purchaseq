@@ -1,0 +1,8 @@
+{
+  "spec_slug": "supplier-onboarding-vragenlijst",
+  "title": "Supplier Onboarding \u2014 Vragenlijst & Workflow",
+  "app": "purchaseq",
+  "repo": "https://github.com/ConductionNL/purchaseq",
+  "depends_on": [],
+  "issue": null
+}
