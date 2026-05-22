@@ -23,6 +23,17 @@ standards:
 
 # BIBOB Toetsing Leveranciers en Opdrachtnemers
 
+## Placement & Information Architecture
+
+**Placement type:** `SUB_PAGE` — Sub-page beneath a top-level menu entry. Renders as a page inside the parent surface (usually reachable via a router child route or a tab on the parent index page).
+
+**Lives at:** Leveranciers > BIBOB-toetsing
+
+**Rationale:** integrity check  
+_Source: /tmp/ia-small5.md_
+
+> **Implementation note for builders:** Respect the placement above. Do not promote this spec to a top-level menu item, sub-page, or new route unless the placement type explicitly says so. If the placement is `DETAIL_TAB`, `WIDGET`, `ACTION`, `SETTING`, or `INFRA`, the feature must NOT introduce a new entry in the app sidebar. When in doubt, ask before creating a new top-level surface.
+
 ## Purpose
 
 Gestructureerde uitvoering van de Wet Bibob in het aanbestedings- en vergunningsproces, met volledige dossiervorming, AVG-compliant verwerking van bijzondere persoonsgegevens, en een verdedigbaar bestuursrechtelijk besluit aan het einde van de keten. De Wet Bibob geeft bestuursorganen het instrument om bij vermoeden van crimineel misbruik van overheidsopdrachten of -vergunningen onderzoek te doen naar de integriteit van de aanvrager, en op basis daarvan een opdracht niet te gunnen of een vergunning te weigeren of in te trekken. De praktijk is dat bestuursorganen vaak de wet wel kennen maar het uitvoeringsproces zwak organiseren: formulieren raken zoek, termijnen verlopen, de motivering van de uiteindelijke beslissing is dun, en bij een gang naar de rechter sneuvelt het besluit op procedurele gronden.
