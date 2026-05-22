@@ -1,0 +1,8 @@
+{
+  "spec_slug": "inhuur-derden-wnra-wnt",
+  "title": "Inhuur Derden met Wet DBA en WNT Toetsing",
+  "app": "purchaseq",
+  "repo": "https://github.com/ConductionNL/purchaseq",
+  "depends_on": [],
+  "issue": null
+}
