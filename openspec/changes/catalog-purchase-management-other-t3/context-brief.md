@@ -4,6 +4,17 @@
 **Spec:** catalog-purchase-management-other-t3
 **Platform:** Nextcloud + OpenRegister
 
+## Placement & Information Architecture
+
+**Placement type:** `DETAIL_TAB` — Tab on the detail view of an existing object. NOT a standalone page — appears inside the parent record's detail surface (e.g. an extra tab on the existing detail header).
+
+**Lives at:** Inkopen > Bestelling > Goedkeuring
+
+**Rationale:** approval flow embedded  
+_Source: /tmp/ia-small5.md_
+
+> **Implementation note for builders:** Respect the placement above. Do not promote this spec to a top-level menu item, sub-page, or new route unless the placement type explicitly says so. If the placement is `DETAIL_TAB`, `WIDGET`, `ACTION`, `SETTING`, or `INFRA`, the feature must NOT introduce a new entry in the app sidebar. When in doubt, ask before creating a new top-level surface.
+
 ## Features (25 total, sorted by market demand)
 
 ### Guided buying experience
