@@ -1,0 +1,8 @@
+{
+  "spec_slug": "peppol-ubl-inkoop-factuur-ontvangst",
+  "title": "Peppol UBL Inkoopfactuur Ontvangst en Drie-weg-match",
+  "app": "purchaseq",
+  "repo": "https://github.com/ConductionNL/purchaseq",
+  "depends_on": [],
+  "issue": null
+}
